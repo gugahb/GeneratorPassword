@@ -11,8 +11,10 @@ num = '0123456789'
 #aqui coloque os símbolos caso não queira algum só remover
 sybs = '[]{}()*#;/,-_%'
 
-#altere o length para a quantidade de caracteres que você queira
-length = 20
+#qual tamanho da senha que você quer?
+qnt = input('Digite qual tamanho da senha: ')
+qntInt = int(qnt)
+length = qntInt
 
 #fazendo senha com todos
 all = min + max + num + sybs
